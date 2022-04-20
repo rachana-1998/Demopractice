@@ -1,0 +1,35 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #04AA6D;
+}
+li:a:hover:not(.active){
+    background-color: #111;
+}
+li:nth-of-type(4) a:hover{
+    background-color: green;
+}
+@media only  screen and(min-width:800px){
+    li{
+        float: left;
+    }
+    li:nth-of-type(4){
+        float: right;
+    }
+}
+.content{
+    margin-left:20%
+}

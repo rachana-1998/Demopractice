@@ -1,0 +1,30 @@
+### topic
+
+
+
+#### specificity
+if there are 2 or more css rule apply o the same element ,the selectore with highest specificity vlue will "win" ,and its style declaration will be applied to the element.
+-inline
+-id
+-classes,pseudo-classes and attribute-selectors=>
+ className,:hover,[ href ]
+ 
+-elements and pseudo-elements=>tag and :before
+- equal specifity => latest rule one
+
+
+ how to calculate specifity
+ ### transform
+ - transformation=> skew rorate translate scale => all of this can be done in 3d or 2d
+ ### animation
+ use along with keyframes.
+ difine an animation name  then in key frame show how it works(0% to 100% in terms of time)
+ 
+ ### box shadow
+ box-shadow => 5px 10px 8px 2px grey inset, 10px 15px 10px 5px red;
+ 1- first value for horizontal offset
+ 2- second value for vertical offset
+ 3- blur
+ 4-spread radius
+ we acn give the color and inset(inside shadow)
+ we acn also give multiple comma separeted options

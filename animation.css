@@ -1,0 +1,41 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 3s;
+    position: relative;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    -o-animation-direction:alternate;
+    animation-timing-function: ease;
+    /*animation: example 3s relative infinite alternate ease;*/
+}
+@keyframes example{
+
+0%{
+    background-color:red ;
+    left:0;
+    top:0;
+
+}
+25%{
+    background-color:blue;
+    left:200px;
+    top:0;
+    height:125px;
+
+}
+50%{
+    background-color:yellow;
+    left:200px;
+    top:200px;
+height:100px;
+}
+100%{
+    background-color:green;
+    left:0px;
+    top:200px;
+height:75px;
+}
+}
